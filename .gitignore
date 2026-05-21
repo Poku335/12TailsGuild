@@ -1,0 +1,36 @@
+# build output
+dist/
+.next/
+out/
+tsconfig.tsbuildinfo
+# dependencies
+node_modules/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dev.log
+dev.err
+
+
+# environment variables
+.env
+.env.local
+.env.production
+
+# uploaded user content (served from public but not tracked)
+public/uploads/
+
+# macOS-specific files
+.DS_Store
+
+# generated docs
+PROJECT_SUMMARY.md
+
+# jetbrains setting folder
+.idea/
+
+.claude
+.codex/
